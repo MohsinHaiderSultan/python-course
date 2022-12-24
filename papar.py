@@ -29,14 +29,14 @@ for i in range (1,N+1):
        m=("Fail")
    else:
      m=("invalid marks")
-grade.append(m)
+ grade.append(m)
 print("="*120)
 print("\t\t\t*** Mix record of students***")
 print("="*120)
 print("\t Names\t\t Marks \t grade\t\t Roll no \tlast class \tcurrent class ")
 print("="*120)
 for a,b,c,d,e,f in zip(name,marks,grade,roll,last,current):
-   print("\t",a,"\t  ",b,"  \t",c,"\t\t",d," \t\t",e,"\t\t",f)
+  print("\t",a,"\t  ",b,"  \t",c,"\t\t",d," \t\t",e,"\t\t",f)
 print("="*120)
 print()
 print("**********maxmum marks of student************")
